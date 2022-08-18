@@ -21,3 +21,13 @@
      print lcm;
 }
 
+// 2- way  more optimal code
+{
+    // loop ---> min/2 to 2   (12 to 2)
+    for(int i = min/2; i >= 2; i--){
+        if(a%i == 0 && b%i == 0){
+            gcd = i;
+            break;
+        }
+    }
+}
