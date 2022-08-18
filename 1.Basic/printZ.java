@@ -15,6 +15,11 @@ public class Main {
 
 
 
+
+
+
+
+
 1. You are required to print a 'z' of size 5 using '*'.
 
 Constraints
