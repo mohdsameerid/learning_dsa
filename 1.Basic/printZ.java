@@ -24,26 +24,26 @@ public class Main {
 
 
 
-1. You are required to print a 'z' of size 5 using '*'.
+// 1. You are required to print a 'z' of size 5 using '*'.
 
-Constraints
-No Constraints
+// Constraints
+// No Constraints
 
-Format
-Input
-There is no input
+// Format
+// Input
+// There is no input
 
-Output
+// Output
 
 
-Example
-Sample Input
+// Example
+// Sample Input
 
-No Input
+// No Input
 
-Sample Output
-*****
-   *
-  *
- *
-*****
+// Sample Output
+// *****
+//    *
+//   *
+//  *
+// *****
