@@ -1,4 +1,4 @@
-//  GCD                    OR   HCF                     and LCM
+//  GCD                     OR   HCF                     and LCM
 // (Greatest Common Divisor)    (Highest Common factor)
 
 // 1- way 
