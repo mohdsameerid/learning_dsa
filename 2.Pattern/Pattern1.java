@@ -9,11 +9,9 @@ public class Main {
 
         for(int r = 1; r <= n; r++){
             for(int c = 1; c <= r; c++){
-                System.out.print("*\t");
+                System.out.print("*\t");  // backslash (\)t for big Space
             }
             System.out.println();
         }
-
-
     }
 }
