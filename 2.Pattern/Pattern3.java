@@ -9,15 +9,31 @@ public class Pattern3 {
         // setting variable for spaces and stars
         int spaces = n -1;
         int stars = 1;
+        // for(int r = 1; r <= n; r++){
+        //     System.out.print(spaces+"\t"+stars); // printing Spaces val and Stars Val.
+
+        //     System.out.println(); // Line Change 
+
+        //     //setting up values for the next Row
+        //     spaces--;
+        //     stars++;
+        // }
+
         for(int r = 1; r <= n; r++){
-            System.out.print(spaces+"\t"+stars); // printing Spaces val and Stars Val.
+            //spaces loop
+            for(int j = 1; j <= spaces; j++){
+                System.out.print("\t");
+            }
+            //stars loop
+            for(int j = 1; j <= stars; j++){
+                System.out.print("*\t");
+            }
+            //line change
+            System.out.println();
 
-            System.out.println(); // Line Change 
-
-            //setting up values for the next Row
-            spaces--;
-            stars++;
+          //prepration for the next row
+          spaces--;
+          stars++;  
         }
-
     }
 }
