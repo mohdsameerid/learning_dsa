@@ -1,3 +1,22 @@
+ W print patte
+ *         *  (1)left,right wall condition -->if( c == 1 ,  c == n)
+ *         *                        printed - left wall, right wall
+ *    *    *  (2)diagonal with only bootom --> if( r > n/2)
+ *  *   *  *                                   {
+ *         *                                   (r==c)      ,   (r+c == n+1)            
+                                               left diagnal, right diagnal
+                                               }
+
+// M Print Pattern                                               
+*         *  (1)left,right wall condition -->if( c == 1 ,  c == n)
+*  *   *  *                        printed - left wall, right wall
+*    *    *  (2)diagonal with only bootom --> if( n/2+1 > r)
+*         *                                   {
+*         *                                   (r==c)      ,   (r+c == n+1)            
+                                              left diagnal, right diagnal
+                                              }                                              
+
+
 import java.util.*;
 
 public class Main {
