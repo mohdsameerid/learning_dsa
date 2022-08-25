@@ -43,7 +43,7 @@ public static void main(String[] args) throws Exception {
         d = d % 10; // get digit
         sum[k] = d; // add digit in sum    order(k to 0)
 
-        // index changing 
+        // index changing from right to left
         i--;
         j--;
         k--;
