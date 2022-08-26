@@ -24,3 +24,8 @@ public class MyClass {
         System.out.print("-1");
    }
 }
+
+
+/////////////////////Question/////////////////////////////////
+// leetcode 
+// https://leetcode.com/problems/binary-search/submissions/
