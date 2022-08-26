@@ -24,9 +24,6 @@ public class MyClass {
         System.out.print("-1");
    }
 }
-
-Mohd Samir Idrishsi OR Naman
-
 /////////////////////Question/////////////////////////////////
 // leetcode 
 // https://leetcode.com/problems/binary-search/submissions/
