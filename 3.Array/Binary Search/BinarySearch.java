@@ -26,6 +26,7 @@ public class MyClass {
 }
 
 
+
 /////////////////////Question/////////////////////////////////
 // leetcode 
 // https://leetcode.com/problems/binary-search/submissions/
