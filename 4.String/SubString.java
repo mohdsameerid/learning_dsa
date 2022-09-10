@@ -17,7 +17,32 @@ public class SubString{
                 String substr = str.substring(i,j);
                 System.out.println(substr);
             }
-            
+
         }
     }
 }
+
+//////////////////////////////////////////////////////////
+// Question //
+
+// ex1
+// input -> abcd
+// output -> a
+//           ab 
+//           abc
+//           abcd 
+//           b 
+//           bc
+//           bcd
+//           c 
+//           cd 
+//           d
+
+// ex2
+// input -> abc
+// output -> a
+//           ab
+//           abc
+//           b
+//           bc
+//           c
