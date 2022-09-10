@@ -3,11 +3,14 @@ class Intro{
         String name = "Samir";
 
         // for get character use -> String_name.charAt(idx)
-           System.out.println(name.charAt(0));
-           System.out.println(name.charAt(1));
-           System.out.println(name.charAt(2));
-           System.out.println(name.charAt(3));
-           System.out.println(name.charAt(4));
+           char ch = name.charAt(1);
+           System.out.println(ch); // a
+
+           System.out.println(name.charAt(0)); // S
+           System.out.println(name.charAt(1)); // a
+           System.out.println(name.charAt(2)); // m
+           System.out.println(name.charAt(3)); // i
+           System.out.println(name.charAt(4)); // r
 
         // for counting length of String -> String_name.length()
            System.out.println(name.length());
@@ -25,7 +28,7 @@ class Intro{
          // 2)
          System.out.println(str.substring(5,5)); // " "
          // 3)
-         System.out.println(str.substring(0,6));  
+        //  System.out.println(str.substring(0,6));  
          // Runtime Error(Exception in thread "main" 
          // java.lang.StringIndexOutOfBoundsException: Range [0, 6) 
          // out of bounds for length 5)
