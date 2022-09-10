@@ -40,12 +40,23 @@ class Intro{
         //     System.out.println(arr[i]);
         //  }
          
-        String s = "hhs,sdjd,sdabjj,dsabjsa sds";
-        String arr[] = s.split(",");
+        // String s = "hhs,sdjd,sdabjj,dsabjsa sds";
+        // String arr[] = s.split(",");
         
-        for(int i = 0; i < arr.length; i++){
-            System.out.println(arr[i]);
-        }
+        // for(int i = 0; i < arr.length; i++){
+        //     System.out.println(arr[i]);
+        // }
+
+        String s = "fdw";
+        // for Adding Character
+        s += ' ';
+        s += 'W';
+        s += 'n';
+        System.out.println(s);
+
+        System.out.println("Hello"+10+20); // Hello1020
+        System.out.println(10+20+"Hello"); // 30Hello
+        System.out.println(10+"Hello"+20); // 10Hello20
     }
 }
 
