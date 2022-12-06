@@ -53,11 +53,3 @@ public class pattern3 {
       
     }
 }
-
-
-
-
-
-
-
-
