@@ -1,0 +1,86 @@
+//////////////////////////////////////////Chess  code in js ///////////////////////////////////////////////////
+
+let strPattern = "";
+
+function blackSpaces(){
+    strPattern = strPattern + "--";
+}
+function whiteSpaces(){
+    strPattern = strPattern + "##";
+}
+
+for(let r = 1; r <= 8; r++){
+    if(r % 2 == 0){
+        for(let i = 1; i <= 8; i++){
+            if(i % 2 == 0){
+                blackSpaces();
+            }else{
+                whiteSpaces();
+            }
+        }
+    }else{
+        for(let i = 1; i <= 8; i++){
+            if(i % 2 == 0){
+                whiteSpaces();
+            }else{
+                blackSpaces();
+            }
+        }
+    }
+    strPattern = strPattern + "\n";
+}
+
+console.log(strPattern);
+
+
+
+
+
+
+
+/////////////////////////////////////////Chess code in java ///////////////////////////////////////////////////
+
+public class MyClass {
+    public static void main(String args[]) {
+        
+      for(int i = 1; i <= 8; i++){
+            
+            if(i % 2 == 0){
+                for(int j = 1; j <= 8; j++){
+                    if( j % 2 == 0 )
+                      {
+                          WhiteSpace();
+                      }
+                    else
+                      {
+                          blackSpace();
+                      }
+                }
+            }else{
+                for(int j = 1; j <= 8; j++){
+                    if( j % 2 == 0 )
+                      {
+                          blackSpace();
+                      }
+                    else
+                      {
+                          WhiteSpace();
+                      }
+                }
+            }
+            System.out.println();
+        }
+        
+    }
+    
+    public static void blackSpace(){
+         for(int a = 1; a <= 2; a++){
+                System.out.print("#");
+        }
+    }
+    public static void WhiteSpace(){
+         for(int a = 1; a <= 2; a++){
+                System.out.print("-");
+            }
+        }
+}
